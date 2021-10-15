@@ -1,0 +1,84 @@
+h1{
+    color:rgb(247, 0, 0); 
+    margin : 10px;
+    padding : 10px;
+    border:black;
+    }
+.header{
+     background-color: rgba(0, 0, 0, 0.521);
+     display:flex;
+     justify-content:space-between; 
+     border:solid;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    /*flex is a container*/ 
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    font-size:30px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message{
+    display:flex;
+    justify-content:left;
+}
+.body{
+    display:flex;
+    flex-direction: row;       
+}
+.me{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+.game{
+    color: black;
+    justify-content: center;
+}
+.back{
+    display:flex;
+    justify-content: center;   
+}
+
+.Menu{
+    margin-right :20px;
+}
+.Menu a{
+    margin-left:30px;
+    font-size: 25px;
+}
+.item{
+    position:relative;
+    border-radius: 20px;
+    background-color: #00000025;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+}
+.item p{
+    position:absolute;
+    top:35%;
+    left:10%;
+    bottom: 10%;
+    transform:translate(10%,100%);
+}
+.item:hover p{
+    opacity: 0.3;
+}
+.item:hover img{
+    opacity: 0.3 ;
+}
+body{
+    background-image: url("image/bg.png.jpg");
+}
